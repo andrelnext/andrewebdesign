@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins:wght@300;600;700&display=swap");
+body {
+  user-select: none;
+}
+
+.App {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.filter-purple {
+  background: linear-gradient(180deg, #F8F2FF 0%, rgba(250, 250, 250, 0) 100%);
+  backdrop-filter: blur(250px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .name-h {
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+  height: 10vh;
+}
+.header .name-h h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.45rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.04em;
+  color: #19192E;
+}
+.header .name-h .purple-box {
+  padding: 0.6vh;
+  background: #F5EDFF;
+  border-radius: 179.467px;
+}
+.header .name-h .purple-box span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.125rem;
+  color: #AF48FF;
+}
+.header .socials {
+  display: flex;
+  gap: 2vh;
+  align-items: center;
+}
+
+.header-home {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-home .biografia {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4vw;
+  width: 90%;
+}
+.header-home .biografia h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.125rem;
+  line-height: 4.375rem;
+  letter-spacing: -0.04em;
+  color: #25323D;
+}
+.header-home .biografia span {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.175rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #5D87A8;
+}
+.header-home .biografia .Link {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.138rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #AF48FF;
+}
+.header-home .biografia .contato {
+  display: flex;
+  gap: 6vh;
+}
+.header-home .biografia .mail {
+  display: flex;
+  flex-direction: column;
+}
+.header-home .biografia .more-projects h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.375rem;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.02em;
+  /* @gray-60 */
+  color: #5D87A8;
+}
+
+.profile .container-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14rem;
+  width: 16rem;
+  background: #FFFFFF;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 13.1532px;
+}
+.profile .container-user .avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile .container-user .avatar img {
+  width: 84px;
+  height: 84px;
+  mix-blend-mode: normal;
+  border-radius: 42.0901px;
+}
+.profile .container-user .avatar .work {
+  padding: 0.23rem;
+  position: relative;
+  top: -1rem;
+  background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+  box-shadow: 0px 5px 20px rgba(250, 118, 96, 0.2);
+  border-radius: 65.7658px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.658rem;
+  line-height: 0.875rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.profile .container-user .avatar .name {
+  text-align: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.986rem;
+  line-height: 1.375rem;
+  color: #25323D;
+}
+.profile .container-user .avatar .city {
+  text-align: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 1.188rem;
+  color: #859FB4;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  zoom: 1.2;
+}
+
+.skills {
+  position: relative;
+  top: 2rem;
+  color: #5D87A8;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.03em;
+  color: #5D87A8;
+}
+
+.background-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: max-content;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 16px;
+  padding: 1rem;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.background-skills:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.background-skills:nth-child(1) {
+  left: -17rem;
+  top: -2rem;
+}
+
+.background-skills:nth-child(2) {
+  left: -6rem;
+  top: -3rem;
+}
+
+.background-skills:nth-child(3) {
+  left: -1rem;
+  top: 5rem;
+}
+
+.background-skills:nth-child(4) {
+  left: -5rem;
+  top: 10rem;
+}
+
+.background-skills:nth-child(5) {
+  left: -23rem;
+  top: -4rem;
+}
+
+.background-skills:nth-child(6) {
+  left: -18rem;
+  top: -12rem;
+  background: #F4EEFB;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 25px;
+}
+
+.background-skills:nth-child(7) {
+  left: -1rem;
+  top: -14rem;
+  background: #C5F8FF;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 25px;
+}
+
+.background-skills:nth-child(8) {
+  left: -15rem;
+  top: -7.5rem;
+  background: #DBEEFF;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 25px;
+}
+
+.last-jobs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 45vh;
+  height: max-content;
+  gap: 5rem;
+}
+.last-jobs .container-projeto {
+  width: 330px;
+  height: 209px;
+  background: #FFFFFF;
+  /* Shadows / Black30 */
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 6px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.last-jobs .container-projeto .conteudo {
+  display: flex;
+  margin-left: 8%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.last-jobs .container-projeto .conteudo h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #40AAFF;
+}
+.last-jobs .container-projeto .conteudo h2:nth-child(2) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #19192E;
+}
+.last-jobs .container-projeto .conteudo h2:nth-child(3) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #859FB4;
+}
+.last-jobs .container-projeto:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.blocked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -100%;
+  background: rgba(255, 255, 255, 0.72);
+}
+.blocked .status {
+  height: auto;
+  width: max-content;
+  padding: 2%;
+  background: #5D87A8;
+  border-radius: 179.467px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #FAFAFA;
+}
+
+.left-S {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  background: #E7EFF4;
+  border-radius: 6px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #5D87A8;
+}
+.footer .center-footer {
+  text-align: center;
+}
+.footer .social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer .social .socials {
+  display: flex;
+  align-items: flex-end;
+  gap: 6%;
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.gmail {
+  all: unset;
+}
+
+@media (min-width: 1px) {
+  .header {
+    zoom: 0.7;
+  }
+
+  .footer .social .socials {
+    justify-content: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 9rem;
+  }
+
+  .biografia {
+    zoom: 0.7;
+  }
+
+  .header-home {
+    min-height: 61vh;
+    height: max-content;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .last-jobs {
+    zoom: 0.8;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .left {
+    display: flex;
+    zoom: 0.8;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+  }
+}
+@media (min-width: 1080px) {
+  .header {
+    zoom: 1;
+  }
+
+  .footer .social .socials {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: row;
+    height: 9rem;
+  }
+
+  .biografia {
+    zoom: 1;
+  }
+
+  .header-home {
+    height: 61vh;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .last-jobs {
+    zoom: 1.2;
+    flex-direction: row;
+  }
+
+  .left {
+    zoom: 1.24;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

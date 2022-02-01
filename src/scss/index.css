@@ -405,6 +405,7 @@ body {
 
   .header-home {
     min-height: 61vh;
+    gap: 7rem;
     height: max-content;
     flex-direction: column-reverse;
     align-items: flex-end;

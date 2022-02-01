@@ -42,8 +42,8 @@ function App() {
                     <div className="header-home">
                         <div className="biografia">
                             <h1>👋 Hi, I’m Andre</h1>
-                            <span>I’m a Product Designer & Front End Developer with a passion for participate<br/>
-                                in every stage of digital product, from discovery to delivery. Helping to <br/>
+                            <span>I’m a Product Designer & Front End Developer with a passion for participate
+                                in every stage of digital product, from discovery to delivery. Helping to
                                 focus the business goals on users.</span>
                             <div className="contato">
                             <span>I’m looking for new opportunities <br/>

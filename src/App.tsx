@@ -47,7 +47,7 @@ function App() {
                                 focus the business goals on users.</span>
                             <div className="contato">
                             <span>I’m looking for new opportunities <br/>
-                            Previously I worked at <a href="https://discord.gg/Bsu79fPAZv" className="Link gmail">Red Valley (RDR2)</a></span>
+                            Previously I worked at <a href="https://discord.gg/cidadesanta" className="Link gmail">Santa Group (GTAV)</a></span>
                                 <div className="mail">
                                     <span>Curitiba, Brasil</span>
                                     <a href="mailto:contato.andredevbr@gmail.com" className="Link gmail">contato.andredevbr@gmail.com</a>
@@ -102,7 +102,7 @@ function App() {
                 <div className="container-projeto">
                     <div className="conteudo">
                         <div className="left-S">
-                            <h3>Red Valley</h3>
+                            <h3>Santa Group</h3>
                             <h2>Ecommerce. <br/>
                                 Web responsive.</h2>
                             <h2>UX/UI Design</h2>
